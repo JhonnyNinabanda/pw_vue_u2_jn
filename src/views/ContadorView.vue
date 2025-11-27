@@ -1,19 +1,18 @@
 <template>
   <div>
-    <h2>Hola Mundo desde la vista Jhonny</h2>
-    <Contador />
+    <h2>Componente desde la Vista </h2>
   </div>
 </template>
-
+ 
 <script>
-import Contador from '../components/Contador.vue'
-
-export default {
-  components: {
-    Contador,
-  }
-}
+export default {};
 </script>
-
+ 
 <style>
+h2 {
+  color: rgb(51, 51, 102);
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  
+}
 </style>
