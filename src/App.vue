@@ -1,24 +1,27 @@
 <template>
   <div id="app">
-    <ContadorView/>
-    <Contador titulo2="Contador 1" v-bind:inicio="20" :mostrar="true"/>
-    <Contador titulo2="Contador 2" :inicio="4" :mostrar="false"/>
+    <DirectivasView />
+    <!--
+    <ContadorView />
+    <Contador titulo2="Contador 1" v-bind:inicio="20" :mostrar="true" />
+    <Contador titulo2="Contador 2" :inicio="4" :mostrar="false" />
+    -->
   </div>
 </template>
- 
+
 <script>
-import ContadorView from '../src/views/ContadorView.vue';
-import Contador from '../src/components/Contador.vue';
+import ContadorView from "../src/views/ContadorView.vue";
+import Contador from "../src/components/Contador.vue";
+import DirectivasView from "../src/views/DirectivasView.vue";
+
 export default {
-  name: 'App',
+  name: "App",
   components: {
     ContadorView,
-    Contador
-  }
- 
+    Contador,
+    DirectivasView,
+  },
 };
 </script>
- 
-<style>
- 
-</style>
+
+<style></style>
